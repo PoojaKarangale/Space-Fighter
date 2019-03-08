@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:gravity="center_horizontal"
+    android:paddingTop="160dp"
+    android:orientation="vertical"
+    tools:context="com.app.spacefighter.high_score_Activity">
+
+    <TextView
+        android:id="@+id/high_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textColorHighlight="@android:color/holo_purple"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/high_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textColorHighlight="@android:color/holo_purple"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/high_text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textColorHighlight="@android:color/holo_purple"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/high_text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_blue_bright"
+        android:textColorHighlight="@android:color/holo_purple"
+        android:textSize="22sp"
+        />
+
+    <Button
+        android:id="@+id/btn_try"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/high_text2"
+        android:backgroundTint="?android:attr/colorBackgroundCacheHint"
+        android:textColor="#f43a1ce2"
+        android:gravity="center"
+
+        android:textSize="24dp"
+        android:justificationMode="inter_word"
+        android:pointerIcon="hand"
+        android:shadowColor="@android:color/darker_gray"
+        android:text="TRY Again" />
+
+</LinearLayout>
