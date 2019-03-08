@@ -1,6 +1,5 @@
 # Space-Fighter
 
-2D game : Space Fighter Thanks to - Simplified Coading Android Game Development Tutorial 
 
 
 The Game Rules :
@@ -14,4 +13,11 @@ The Game Rules :
 
 
 * your score is equal to number of enemy player-ship killed
+
+
+
+2D game : Space Fighter 
+
+
+Thanks to - Simplified Coading Android Game Development Tutorial 
 
